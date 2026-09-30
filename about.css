@@ -1,0 +1,163 @@
+*body{
+  box-sizing: border-box;
+}
+.wrap{
+  background-color: #222222;
+  display: flex;
+}
+.head{
+  width: auto;
+  height: 150px;
+  background-color: #E9E7E2;
+}
+.title{
+  width: 50%;
+  color: #F7F5F0;
+  border: 5px solid #222222;
+  padding-left: 10px;
+}
+
+.title a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.menu{
+  width: 50%;
+  border: 5px solid #222222;
+  text-align: right;
+  color: #F7F5F0;
+  & > a{
+    color: #F7F5F0;
+    text-decoration: none;
+    padding-right: 10px;
+  }
+  &:hover{
+    cursor: pointer;
+    color:#D6BE96
+  }
+}
+
+.menu a.active{
+  color: #D6BE96;
+  font-weight: bolder;
+}
+
+.banner{
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.banner h1{
+  margin: 0px;
+  margin-top: 15px;
+}
+
+.menu_title{
+  background-color: #E9E7E2;
+  border-left: 8px solid #222222;
+  height: 30px;
+  margin: 0;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu_title p{
+  margin: 10px;
+}
+
+.Catchy{
+  margin: 20px;
+}
+
+.Catchy_wrap{
+  display: flex;
+}
+
+.Catchy_left{
+  width: 800px;
+  margin: 20px;
+}
+
+.Catchy_left img{
+  width: 100%;
+  height: 300px;
+}
+
+.Catchy_right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Catchy_right p{
+  margin: 5px;
+}
+
+table {
+  margin: 20px 0;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+
+td{
+  border: 1px solid black;
+  padding-left: 20px;
+  padding-right:20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.table_title{
+  background-color: #E9E7E2;
+  font-weight: 900;
+}
+
+.history th:first-child,
+.history td:first-child{
+  width: 30%;
+}
+
+.history th:last-child,
+.history td:last-child{
+  width: 70%;
+}
+
+.information th:nth-child(1),
+.information td:nth-child(1){
+  width: 15%
+}
+
+.information th:nth-child(2),
+.information td:nth-child(2){
+  width: 25%
+}
+
+.information th:nth-child(3),
+.information td:nth-child(3){
+  width: 30%
+}
+
+.information th:nth-child(4),
+.information td:nth-child(4){
+  width: 30%
+}
+
+.footer{
+  background-color: #222222;
+  margin: 0;
+}
+
+.footer p{
+  color: #F7F5F0;
+  padding: 20px;
+  font-size: 15px;
+}
